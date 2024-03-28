@@ -6,5 +6,5 @@ import tailwindcss from "tailwindcss";
 export default defineConfig({
   optimizeDeps: {},
   plugins: [react()],
-  base: "./",
+  base: "https://github.com/R-o-s-e-B/rose.github.io",
 });
