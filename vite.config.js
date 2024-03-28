@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {},
   plugins: [react()],
 
-  homepage: "http://.github.io/rose.github.io",
+  homepage: "rose.github.io",
 });
