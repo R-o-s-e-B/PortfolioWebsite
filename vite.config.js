@@ -6,4 +6,5 @@ import tailwindcss from "tailwindcss";
 export default defineConfig({
   optimizeDeps: {},
   plugins: [react()],
+  base: "./",
 });
