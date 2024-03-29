@@ -25,7 +25,7 @@ const About = () => {
   };
 
   return (
-    <div className="relative -z-40 w-full flex flex-col-reverse md:flex-row lg:flex-row mt-32 gap-x-8 content-center mx-24 justify-center pt-10">
+    <div className="relative -z-40 w-full flex flex-col-reverse md:flex-row lg:flex-row mt-28 gap-x-8 content-center mx-24 justify-center pt-10">
       <div className="w-full flex flex-col gap-8 justify-center content-center my-4">
         {/* <motion.h1
           whileHover={{ y: 10, scale: 1.1, color: "red" }}
@@ -39,7 +39,7 @@ const About = () => {
         <motion.h2 className="text-black sm:text-xl md:text-2xl lg:text-4xl">
           {splitText("UI/UX Designer and Developer")}
         </motion.h2>
-        <p className="text-black">
+        <p className="text-black mr-32">
           Bringing the best of both worlds to life by creating impeccable
           experiences with Design and Code.
         </p>
