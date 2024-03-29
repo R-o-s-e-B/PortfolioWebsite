@@ -44,7 +44,7 @@ const Navbar = () => {
       )}
 
       {toggle && (
-        <div className="p-2 md:hidden lg:hidden fixed top-16 right-0 mx-4 my-4 min-w-[100px] rounded-xl shadow-md z-40 gap-5">
+        <div className="p-2 md:hidden lg:hidden fixed top-16 right-0 mx-4 xs:mr-20 my-4 min-w-[100px] rounded-xl shadow-md z-40 gap-5">
           <Link to="/">
             <div className="mx-12 my-4 text-xl lg:text-2xl hover:text-secondary">
               About
