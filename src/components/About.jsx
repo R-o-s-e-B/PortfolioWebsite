@@ -39,7 +39,10 @@ const About = () => {
         <motion.h2 className="text-black sm:text-xl md:text-2xl lg:text-4xl">
           {splitText("UI/UX Designer and Developer")}
         </motion.h2>
-        <p className="text-black">A long paragraph about me or something</p>
+        <p className="text-black">
+          Bringing the best of both worlds to life by creating impeccable
+          experiences with Design and Code.
+        </p>
       </div>
 
       <div>
