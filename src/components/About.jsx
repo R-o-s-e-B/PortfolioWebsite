@@ -36,7 +36,7 @@ const About = () => {
         <motion.h1 className="text-black text-xl sm:text-2xl md:text-4xl lg:text-6xl justify-center cursor-pointer">
           {splitText("Hi, I'm Rose")}
         </motion.h1>
-        <motion.h2 className="text-black sm:text-xl md:text-2xl lg:text-4xl">
+        <motion.h2 className="text-black sm:text-xl md:text-2xl md:mr-20 lg:text-4xl">
           {splitText("UI/UX Designer and Developer")}
         </motion.h2>
         <p className="text-black mr-32">
@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       <div>
-        <div className="lg:w-[30%] lg:h-[96%] md:w-[36%] md:h-[90%] w-[62%] h-[60%] -ml-1 -mt-1 rounded-full overflow-hidden absolute z-0 lg:-mt-3 lg:-ml-3">
+        <div className="lg:w-[30%] lg:h-[96%] md:w-[36%] md:h-[76%] w-[62%] h-[58%] -ml-1 -mt-1 rounded-full overflow-hidden absolute z-0 lg:-mt-3 lg:-ml-3">
           {showCircle ? (
             <motion.div
               initial={{ rotate: 0 }}
@@ -56,13 +56,13 @@ const About = () => {
                 type: "tween",
                 repeat: Infinity,
               }}
-              className="w-[20%] h-[120%] -mt-1 lg:h-[120%] justify-center mx-auto ml-32 lg:ml-32 lg:w-[30%] z-0 lg:-mt-2 bg-secondary absolute  "
+              className="w-[20%] h-[120%]  lg:h-[120%] justify-center mx-auto ml-32 lg:ml-32 lg:w-[30%] z-0 lg:-mt-2 bg-secondary absolute  "
             ></motion.div>
           ) : (
             <motion.div
               animate={{ rotate: 360, opacity: 0 }}
               transition={{ delay: 0.5, duration: 1.5, type: "tween" }}
-              className="w-[20%] h-[100%] -mt-1 lg:h-[120%] justify-center mx-auto ml-32 lg:ml-32 lg:w-[30%] z-0 lg:-mt-2 bg-secondary absolute "
+              className="w-[20%] h-[100%]  lg:h-[120%] justify-center mx-auto ml-32 lg:ml-32 lg:w-[30%] z-0 lg:-mt-2 bg-secondary absolute "
             ></motion.div>
           )}
         </div>
