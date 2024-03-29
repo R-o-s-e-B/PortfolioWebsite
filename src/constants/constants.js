@@ -7,6 +7,9 @@ import uni from "../assets/images/uni.png";
 import furn from "../assets/images/furniture.png";
 import taske from "../assets/images/taske.png";
 import ecom from "../assets/images/ecom.png";
+import ml from "../assets/images/ml.png";
+import aichat from "../assets/images/aichat.png";
+import sigame from "../assets/images/sigame.png";
 import color from "../assets/images/colorpalette.png";
 import char1 from "../assets/images/misc/charcoal1.png";
 import char2 from "../assets/images/misc/charcoal2.png";
@@ -117,6 +120,33 @@ const works = [
     gitlink: "https://github.com/R-o-s-e-B/Color_palette_generator",
     blink: "",
     link: "https://color-palette-pfk4.onrender.com",
+    website: false,
+  },
+  {
+    title: "AI API",
+    image: aichat,
+    code: true,
+    gitlink: "https://github.com/R-o-s-e-B/AI-website",
+    blink: "",
+    link: "",
+    website: false,
+  },
+  {
+    title: "ML Chatbot",
+    image: ml,
+    code: true,
+    gitlink: "https://github.com/R-o-s-e-B/chatBot",
+    blink: "",
+    link: "",
+    website: false,
+  },
+  {
+    title: "Space Invaders",
+    image: sigame,
+    code: true,
+    gitlink: "https://github.com/R-o-s-e-B/Space_invaders",
+    blink: "",
+    link: "",
     website: false,
   },
 ];
