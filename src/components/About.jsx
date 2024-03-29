@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       <div>
-        <div className="lg:w-[30%] lg:h-[96%] md:w-[36%] md:h-[90%] sm:w-[62%] sm:h-[60%] xs:w-0 xs:h-0 xs:mx-10 -ml-1 -mt-1 rounded-full overflow-hidden absolute z-0 lg:-mt-3 lg:-ml-3">
+        <div className="lg:w-[30%] lg:h-[96%] md:w-[36%] md:h-[90%] sm:w-[62%] sm:h-[60%] xs:w-0 xs:h-0 lg:mx-24 md:mx-20 sm:mx-10 xs:mr-10 -ml-1 -mt-1 rounded-full overflow-hidden absolute z-0 lg:-mt-3 lg:-ml-3">
           {showCircle ? (
             <motion.div
               initial={{ rotate: 0 }}
