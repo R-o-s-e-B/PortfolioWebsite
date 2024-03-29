@@ -25,7 +25,7 @@ const About = () => {
   };
 
   return (
-    <div className="relative -z-40 w-full flex flex-col-reverse md:flex-row lg:flex-row mt-28 gap-x-8 content-center lg:mx-24 md:mx-20 sm:mx-10 xs:mx-3 justify-center pt-10">
+    <div className="relative -z-40 w-full flex flex-col-reverse md:flex-row lg:flex-row mt-28 gap-x-8 content-center lg:mx-24 md:mx-20 sm:mx-4 xs:mx-3 justify-center pt-10">
       <div className="w-full flex flex-col gap-8 justify-center content-center my-4">
         {/* <motion.h1
           whileHover={{ y: 10, scale: 1.1, color: "red" }}
@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       <div>
-        <div className="lg:w-[30%] lg:h-[96%] md:w-[36%] md:h-[90%] sm:w-[62%] sm:h-[60%] xs:w-0 xs:h-0 md:-ml-2 md:-mt-2 rounded-full overflow-hidden absolute z-0 lg:-mt-3 lg:-ml-3">
+        <div className="lg:w-[30%] lg:h-[96%] md:w-[36%] md:h-[90%] sm:w-[62%] sm:h-[60%] xs:w-0 xs:h-0 md:-ml-2 md:-mt-1 rounded-full overflow-hidden absolute z-0 lg:-mt-3 lg:-ml-3">
           {showCircle ? (
             <motion.div
               initial={{ rotate: 0 }}
