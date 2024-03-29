@@ -25,7 +25,7 @@ const About = () => {
   };
 
   return (
-    <div className="relative -z-40 w-full flex flex-col-reverse md:flex-row lg:flex-row mt-28 gap-x-8 content-center lg:mx-24 md:mx-24 sm:mx-20 xs:mx-10 justify-center pt-10">
+    <div className="relative -z-40 w-full flex flex-col-reverse md:flex-row lg:flex-row mt-28 gap-x-8 content-center lg:mx-24 md:mx-24 sm:mx-20 xs:mx-2 justify-center pt-10">
       <div className="w-full flex flex-col gap-8 justify-center content-center my-4">
         {/* <motion.h1
           whileHover={{ y: 10, scale: 1.1, color: "red" }}
