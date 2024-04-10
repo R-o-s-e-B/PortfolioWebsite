@@ -42,7 +42,8 @@ const works = [
     image: planmate,
     code: true,
     gitlink: "",
-    blink: "",
+    blink:
+      "https://www.behance.net/gallery/195901353/PlanMate-Daily-planner-App%28UIUX-and-Development%29",
     link: "",
     website: false,
   },
@@ -128,7 +129,7 @@ const works = [
     code: true,
     gitlink: "https://github.com/R-o-s-e-B/AI-website",
     blink: "",
-    link: "",
+    link: "https://rosebobby.netlify.app/Work",
     website: false,
   },
   {
@@ -137,7 +138,7 @@ const works = [
     code: true,
     gitlink: "https://github.com/R-o-s-e-B/chatBot",
     blink: "",
-    link: "",
+    link: "https://rosebobby.netlify.app/Work",
     website: false,
   },
   {
@@ -146,7 +147,7 @@ const works = [
     code: true,
     gitlink: "https://github.com/R-o-s-e-B/Space_invaders",
     blink: "",
-    link: "",
+    link: "https://rosebobby.netlify.app/Work",
     website: false,
   },
 ];
