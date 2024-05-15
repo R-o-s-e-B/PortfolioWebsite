@@ -129,7 +129,7 @@ const works = [
     code: true,
     gitlink: "https://github.com/R-o-s-e-B/AI-website",
     blink: "",
-    link: "https://rosebobby.netlify.app/Work",
+    link: "https://github.com/R-o-s-e-B/AI-website",
     website: false,
   },
   {
@@ -138,7 +138,7 @@ const works = [
     code: true,
     gitlink: "https://github.com/R-o-s-e-B/chatBot",
     blink: "",
-    link: "https://rosebobby.netlify.app/Work",
+    link: "https://github.com/R-o-s-e-B/chatBot",
     website: false,
   },
   {
@@ -147,7 +147,7 @@ const works = [
     code: true,
     gitlink: "https://github.com/R-o-s-e-B/Space_invaders",
     blink: "",
-    link: "https://rosebobby.netlify.app/Work",
+    link: "https://github.com/R-o-s-e-B/Space_invaders",
     website: false,
   },
 ];
