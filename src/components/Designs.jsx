@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useLocation } from "react";
 import uni from "../assets/images/uni.png";
 import { works } from "../constants/constants";
 import { charcoal } from "../constants/constants";
